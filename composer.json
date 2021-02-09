@@ -1,18 +1,5 @@
 {
-    "name": "opendirectorylinkscrapper",
-    "description": "an open directory scrapper",
-    "type": "app",
-    "require": {
-        "php": ">= 7.0"
-    },
-    "require-dev": {
+  "require-dev": {
     "heroku/heroku-buildpack-php": "*"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "sumeet naik",
-            "email": "hi@sumeet.xyz"
-        }
-    ]
+  }
 }

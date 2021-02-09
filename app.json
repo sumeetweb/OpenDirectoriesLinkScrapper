@@ -1,6 +1,6 @@
 {
-  "name": "ODLS Bridge",
-  "description": "OpenDirectoryScrapper Bridge",
+  "name": "ODLSBridge",
+  "description": "OpenDirectoryScrapperBridge",
   "repository": "https://github.com/sumeetweb/OpenDirectoriesLinkScrapper",
   "addons": []
 }
