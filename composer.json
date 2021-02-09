@@ -1,5 +1,5 @@
 {
-    "name": "sumeetweb/OpenDirectoriesLinkScrapper",
+    "name": "OpenDirectoriesLinkScrapper",
     "description": "An open directory scrapper",
     "type": "library",
     "require": {
@@ -14,5 +14,5 @@
             "name": "Sumeet Naik",
             "email": "hi@sumeet.xyz"
         }
-    ],
+    ]
 }
