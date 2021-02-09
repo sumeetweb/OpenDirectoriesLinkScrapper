@@ -1,5 +1,5 @@
 {
-    "name": "OpenDirectoriesLinkScrapper",
+    "name": "opendirectorylinkscrapper",
     "description": "An open directory scrapper",
     "type": "library",
     "require": {
