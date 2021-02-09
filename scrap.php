@@ -1,5 +1,9 @@
 <?php
 include_once('simple_html_dom.php');
+
+if(!isset($_GET['q'])){
+    die("Query parammeter missing.");
+}
 $url = $_GET['q'];
 
 function file_url($url){
