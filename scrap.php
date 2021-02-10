@@ -4,6 +4,11 @@ include_once('simple_html_dom.php');
 if(!isset($_GET['q'])){
     die("Query parammeter missing.");
 }
+
+if($_GET['q'] == ' ' || $_GET['q'] == ''){
+    die("Query missing.");
+}
+
 $url = $_GET['q'];
 
 function file_url($url){
@@ -43,7 +48,8 @@ function scrapit() {
 ini_set('user_agent', 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Safari/537.36');
 
 $ret = scrapit();
-echo json_encode($ret);
+header('Content-type:application/json;charset=utf-8');
+echo json_encode($ret, JSON_UNESCAPED_SLASHES);
 
 
 ?>
